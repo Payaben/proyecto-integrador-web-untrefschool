@@ -1,5 +1,31 @@
+/*=== Aplicando CSS Global===*/
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.padding{
+  padding: 50px;
+}
+.color-de-letra-de-h1-de-pagina-de-contacto{
+  color: #FC7300;
+}
+
+.color-de-fondo{
+  background-color: #EFF5F5;
+}
+.color-de-letra-de-untrefschool{
+  color: #1F8A70;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  
+}
+.color-de-letra-de-untrefschool:hover{
+  color: #FC7300;
+  border-bottom: 1px solid #FC7300;
+  opacity: 1
 }

@@ -10,24 +10,42 @@
     <title>UntrefSchool</title>
 </head>
 <body>
-    <header>
+    <div class="container color-de-fondo">
+      <header class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">UntrefSchool</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Página Principal</a>
-                  </li>
-                </ul>
-              </div>
+              <a class="navbar-brand color-de-letra-de-untrefschool" href="index.html">UntrefSchool</a>
             </div>
           </nav>
     </header>
     
+    <div class="container padding" >
+      <h1 class="color-de-letra-de-h1-de-pagina-de-contacto">Formulario de Contacto</h1>
+
+    </div>
+
+    
+    <form class="container g-3">
+      <div class="col-md-4">
+        <label for="validationDefault01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationDefault01" value="Pablo" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Aguirre" required>
+      </div>
+      <div class="col-md-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text">Su Email No Sera Compartido.</div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
     
 
     
